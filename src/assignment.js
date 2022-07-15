@@ -22,7 +22,7 @@ function sumOfNumbers(arrayOfNumbers) {
   }
   return sum;
 }
-
+console.log(sumOfNumbers([1, 2, 3],'sum'))
 
 /**
  * Challenge - 2
@@ -65,9 +65,11 @@ function celsiusToFahrenheit(arr) {
   for (let i = 0; i<arr.length; i++){
     fahrenheit = arr[i] * (9/5) + 32
     result = Math.floor(fahrenheit)
-  } console.log(result)
+  } 
+  return result;
 }
 celsiusToFahrenheit([30])
+console.log(celsiusToFahrenheit([30], 'temp'))
 
 
 // ========================
