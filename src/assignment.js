@@ -24,6 +24,8 @@ function celsiusToFahrenheit(arr) {
   return result;
 }
 
+assignment.sumOfNumbers = sumOfNumbers;
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
