@@ -5,20 +5,17 @@ const assignment = {};
 
 
 
-function sumOfNumbers() {
+function sumOfNumbers(numbers) {
   let sum = 0;
-let arr = [];
-  for (let i = 0; i < arr.length; i++) {
-    sum += arr[i];
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
   }
   return sum;
 }
-sumOfNumbers();
 
-function celsiusToFahrenheit() {
+function celsiusToFahrenheit(arr) {
   
   let fahrenheit = 0
-  let arr = [];
   let result = 0
   for (let i = 0; i<arr.length; i++){
     fahrenheit = arr[i] * (9/5) + 32
@@ -26,7 +23,6 @@ function celsiusToFahrenheit() {
   } 
   return result;
 }
-celsiusToFahrenheit();
 
 
 // ========================
