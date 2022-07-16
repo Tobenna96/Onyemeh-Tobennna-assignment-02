@@ -16,10 +16,10 @@ function sumOfNumbers(numbers) {
 function celsiusToFahrenheit(arr) {
   
   let fahrenheit = 0
-  let result = 0
+  let result = []
   for (let i = 0; i<arr.length; i++){
     fahrenheit = arr[i] * (9/5) + 32
-    result = Math.floor(fahrenheit)
+    result.push(Math.floor(fahrenheit))
   } 
   return result;
 }
