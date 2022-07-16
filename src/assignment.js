@@ -10,8 +10,10 @@ function sumOfNumbers(numbers) {
   for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
   }
+  console.log(sum)
   return sum;
 }
+// sumOfNumbers(numbers);
 
 function celsiusToFahrenheit(arr) {
   
@@ -23,6 +25,7 @@ function celsiusToFahrenheit(arr) {
   } 
   return result;
 }
+// celsiusToFahrenheit();
 
 
 // ========================
