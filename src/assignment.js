@@ -13,7 +13,6 @@ function sumOfNumbers(numbers) {
   console.log(sum)
   return sum;
 }
-// sumOfNumbers(numbers);
 
 function celsiusToFahrenheit(arr) {
   
@@ -25,7 +24,7 @@ function celsiusToFahrenheit(arr) {
   } 
   return result;
 }
-// celsiusToFahrenheit();
+
 
 
 // ========================
